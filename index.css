@@ -1,0 +1,34 @@
+ *{
+     box-sizing: border-box;
+ }
+ body{
+    display: grid;
+    place-items: center;
+    padding: 0;
+    margin: 0;
+} 
+.todos-container{
+    width:500px;
+    height: 100vh;
+    background-color: #FAF9F9;
+}
+.header{
+    width: 100%;
+    background-color: #555B6E;
+    color: white;
+    margin-top: 0;
+    display: inline-block;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.add{
+    float: left;
+    padding: 20px;
+    background-color: #BEE3DB;
+    border: none;
+}
+.loader{
+    display: none;
+}
